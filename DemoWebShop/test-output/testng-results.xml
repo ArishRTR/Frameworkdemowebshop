@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Books page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Books page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Thank you page displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-10T16:32:19 IST" name="Default suite" finished-at="2024-02-10T16:32:33 IST" duration-ms="14193">
+    <groups>
+    </groups>
+    <test started-at="2024-02-10T16:32:19 IST" name="Default test" finished-at="2024-02-10T16:32:33 IST" duration-ms="14193">
+      <class name="home.endToEndTest">
+        <test-method is-config="true" signature="bsuite()[pri:0, instance:home.endToEndTest@793f29ff]" started-at="2024-02-10T16:32:19 IST" name="bsuite" finished-at="2024-02-10T16:32:19 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+        <test-method is-config="true" signature="bclass()[pri:0, instance:home.endToEndTest@793f29ff]" started-at="2024-02-10T16:32:19 IST" name="bclass" finished-at="2024-02-10T16:32:25 IST" duration-ms="5524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclass -->
+        <test-method is-config="true" signature="bmethod(java.lang.reflect.Method)[pri:0, instance:home.endToEndTest@793f29ff]" started-at="2024-02-10T16:32:25 IST" name="bmethod" finished-at="2024-02-10T16:32:26 IST" duration-ms="1688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void home.endToEndTest.endToend_001() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="endToend_001()[pri:0, instance:home.endToEndTest@793f29ff]" started-at="2024-02-10T16:32:26 IST" name="endToend_001" finished-at="2024-02-10T16:32:33 IST" duration-ms="6939" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Books page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Books page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Thank you page displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endToend_001 -->
+        <test-method is-config="true" signature="aclass()[pri:0, instance:home.endToEndTest@793f29ff]" started-at="2024-02-10T16:32:33 IST" name="aclass" finished-at="2024-02-10T16:32:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aclass -->
+        <test-method is-config="true" signature="asuite()[pri:0, instance:home.endToEndTest@793f29ff]" started-at="2024-02-10T16:32:33 IST" name="asuite" finished-at="2024-02-10T16:32:34 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asuite -->
+      </class> <!-- home.endToEndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
